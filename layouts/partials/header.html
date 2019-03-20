@@ -1,0 +1,35 @@
+    <!--
+    Header start
+    ==================== -->
+    {{- with .Site.Params.header }}
+    <section class="hero-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+          {{- with .image }}
+            <img src="{{ relURL .path }}" alt="{{ .alt }}">
+          {{- end }}
+          </div>
+          <div class="col-md-6">
+            <div class="block">
+              <h1 class="">{{ .title }}</h1>
+              <p>{{ .text }}</p>
+
+              
+              {{- with .button }}
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="submit" class="btn btn-main" border="0" name="submit" value="{{ .text }}" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+              </form>
+              {{- end }}
+
+
+            </div>
+          </div>
+        </div><!-- .row close -->
+      </div><!-- .container close -->
+    </section><!-- header close -->
+    {{- end }}
+

@@ -1,0 +1,121 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "DadoHitzak"
+
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = ["/css/override.css"]
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "DadoHitzak"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HASIERA"
+    [[params.navbar.menu]]
+      link = "#ezaugarriak"
+      text = "EZAUGARRIAK"
+#    [[params.navbar.menu]]
+#      link = "#service"
+#      text = "SERVICES"
+#    [[params.navbar.menu]]
+#      link = "#contact"
+#      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "Dado bidez sorturiko pasahitzak, euskaraz"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+    [params.header.image]
+      path = "img/dice.jpg"
+      alt = "Dadoak"
+    [params.header.button]
+      text = "Orain eskatu, 3€"
+
+  # Features
+  [params.features]
+    title = "Ezaugarri nagusiak"
+#    [params.features.image]
+#      path = "images/watch-2.png"
+#      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "fas fa-dice"
+      title = "Benetako dadoekin egina"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.left]]
+      icon = "fas fa-signature"
+      title = "Eskuz idatzia"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+#    [[params.features.left]]
+#      icon = "fas fa-lock"
+#      title = "Easy Pricing"
+#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # Menu at the center of the image
+    [[params.features.center]]
+      icon = "fas fa-lock"
+      title = "Segurtasun handienekoa"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.center]]
+      icon = "fas fa-envelope-open-text"
+      title = "Postaz bidalia, paperean"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+#    [[params.features.center]]
+#      icon = "fas fa-certificate"
+#      title = "Easy Pricing"
+#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "far fa-comment-dots"
+      title = "Gogoratzen erraza"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "fab fa-cc-paypal"
+      title = "PayPal bidezko ordainketa"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+#    [[params.features.right]]
+#      icon = "fas fa-paper-plane"
+#      title = "Easy Pricing"
+#      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+#   [params.promo]
+#    title = "Designed by professional , the benefit for creative gigs"
+#    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+#    [params.promo.image]
+#      path = "images/watch.png"
+#      alt = "Watch"
+
+
+#  [params.testimonials]
+#    title = "Watch Review"
+#    [[params.testimonials.blocks]]
+#      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+#      name = "Jonathon Andrew"
+#      position = "CEO, Themefisher"
+#      image = "images/avater.png"
+#    [[params.testimonials.blocks]]
+#      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+#      name = "Jonathon Andrew"
+#      position = "CEO, Themefisher"
+#      image = "images/avater.png"
+#    [[params.testimonials.blocks]]
+#      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+#      name = "Jonathon Andrew"
+#      position = "CEO, Themefisher"
+#      image = "images/avater.png"
+#    [params.testimonials.button]
+#      link = ""
+#      text = "Grab You Product Now"
+
+  # Footer uses navbar data
