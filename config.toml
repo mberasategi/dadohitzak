@@ -40,7 +40,9 @@ theme = "vex-hugo"
       path = "img/dice.jpg"
       alt = "Dadoak"
     [params.header.button]
-      text = "Eskatu orain, 5€"
+      text = "Posta elektronikoz, 3€"
+    [params.header.button2]
+      text = "Paperean, 8€"
 
   # Features
   [params.features]
